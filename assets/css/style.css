@@ -184,13 +184,13 @@ h3 strong {
 #banner h3 {
 	color: #fff;
 	margin: 0;
-	font-size: 1.1em;
+	font-size: 1.4em;
 }
 
 #banner p {
-	font-size: 1em;
+	font-size: 1.1em;
 	color: rgba(255, 255, 255, 0.55);
-	margin-bottom: 1.75em;
+	margin-bottom: 1.3em;
 }
 
 
@@ -252,6 +252,9 @@ h3 strong {
 	background-color: rgba(108, 192, 145, 0.15);
 }
 
+#header .active {
+	background-color: rgba(108, 192, 145, 0.15);
+}
 
 /* Footer */
 #footer {
@@ -511,6 +514,15 @@ th.item-col {
 		color: #6cc091;
 		cursor: pointer;
 		z-index: 10011;
+	}
+
+	#banner h3 {
+		font-size: 1.2em;
+	}
+
+	#banner p {
+		font-size: 1em;
+		margin-bottom: 1em;
 	}
 }
 
